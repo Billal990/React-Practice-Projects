@@ -1,11 +1,15 @@
+import React from "react";
 import { useState } from "react";
-import StudentsWrapper from "./components/StudentsWrapper";
+import AddTodoForm from "./components/AddTodoForm";
+import AllTodoList from "./components/AllTodoList";
 import "./css/App.css";
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <StudentsWrapper />
+    <div className="app">
+      <AddTodoForm />
+      <AllTodoList />
     </div>
   );
-}
+};
+
 export default App;

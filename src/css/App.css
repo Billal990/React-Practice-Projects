@@ -1,39 +1,22 @@
-.App{
-    width: 1200px;
-    margin: 0 auto;
-}
-.App form{
-    margin: 30px 0;
-    text-align: center;
-}
-.student-section{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 5px;
-}
-
-.list{
-    border: solid green 1px;
-    padding: 5px;
-}
-.list ul, p{
+*{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
-
-.list ul li{
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.app form{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
-
-.all-student-list{
-    flex-grow: 4;
+.app{
+    width: 250px;
 }
-
-.present-student-list{
-    flex-grow: 3;
-}
-
-.absent-student-list{
-    flex-grow: 3;
+ul.todo-list li{
+    display: flex;
+    justify-content: space-between;
 }
